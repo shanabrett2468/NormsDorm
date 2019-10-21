@@ -1,6 +1,12 @@
 div {
 
-	padding-top: 250px;
+	padding-top: 200px;
 	padding-left: 500px;
 
+}
+
+body {
+
+	background-image: url("image.png");
+	background-size: 600px 500px;
 }
