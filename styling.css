@@ -1,12 +1,53 @@
-div {
-
-	padding-top: 200px;
-	padding-left: 500px;
-
+body{
+  	font-family: 'Open Sans', sans-serif;
+  	background: white;
+  	margin: 0 auto 0 auto;  
+  	width:100%; 
+ 	text-align:center;
+ 	margin: 20px 0px 20px 0px;   
 }
 
-body {
+/* Position the logo */
+.logo{
+  display: block;
+  margin:0 auto;
+  height: 90px;
+  width: 180px;
+  padding-top: 20px;
+}
 
-	background-image: url("image.png");
-	background-size: 600px 500px;
+h1{
+ 	font-size: 50px;
+  	color: #27251F;
+  	margin: 20px 40px 0px 40px;
+}
+
+/* Login Box */
+.box{
+  	background: white;
+  	width: 400px;
+  	border-radius: 10px;
+  	margin: 0 auto 0 auto;
+  	padding: 0px 0px 100px 0px;
+  	border: #046A38 4px solid; 
+}
+
+/* Login Button */
+.login{
+ 	background-color: #046A38;
+  	border: none;
+  	color: white;
+  	border-radius: 8px;
+  	padding: 5px 15px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+  	font-size: 12px;
+ 	margin: 4px 2px;
+  	cursor: pointer;
+}
+
+.signup{
+	text-align: center;
+	color: lighten(@blue, 10%);  
 }

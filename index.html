@@ -1,21 +1,26 @@
 <html>
-<head>
-<link rel="stylesheet" type="text/css" href="styling.css">	
+	<head>
+		<meta charset = "UTF-8"/>
+    	<title> Norm's Dorm </title>
+		<link rel="stylesheet" type="text/css" href="styling.css">	
+	</head>
 
-</head>
-<body>
-<h1 align="center">Welcome to Norm's Dorm!</h1>
+	<body>
+		<header>
+			<img src="./logo.svg" alt="Logo" class="logo"/>
+		</header>
+		<form method="post" action="index.html">
+			<div class="box"> <!-- Login Box -->
+				<h1>Welcome</h1> 
+				<img src="./image.png" width="200px" height="180px"/><br/>
 
-<div>
-<h4>Username</h4><br>
-<input type="text" name="username"><br><br>
-<h4>Password</h4><br>
-<input type="text" name="password"><br><br><br>
-
-<input type="submit" value="Login">
-</div>
-
-
-</body>
-
+				<input type="email" placeholder="Enter Email" name="email"><br/>
+	  			<input type="password" placeholder="Enter Password" name="email"><br/>
+	  
+				<button class="login" type="submit">Login</button><br/>
+				<p class="signup">Don't have an account?<a href="#">Sign up now</a></p>
+			</div> <!-- End Box -->
+		</form>
+	</body>
 </html>
+
