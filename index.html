@@ -7,7 +7,6 @@
 </head>
 
 <body>
-   <!--- Navigation bar --->
    <header>
     	<div class="container">
         	<img src="./logo.svg" alt="Logo" class="logo"/>
@@ -22,11 +21,34 @@
                 <p>Your marketplace for buying & selling used items among UNCC students in a user-friendly and safe environment.
                 </p>
                 <p>
-                    <a class="login_index" href = "login.html">Log in</a>
+                    <button onclick="document.getElementById('myForm').style.display='block'" class="login_index">Login</button>
                 </p>
             </div>
-            
         </div>
     </section>
+
+    <!--- Popup login form --->
+    <div id="myForm" class="popup_form">
+        <form class="box" action="" method="post">
+            <div class="close">
+                <span onclick="document.getElementById('myForm').style.display='none'" class="close_icon">&times;</span>
+                <h1>Welcome</h1>
+                <img src="./image.png" width="250px" height="230px">
+            </div>
+            <input type="text" placeholder="Enter Your UNCC Email" required>
+            <input type="password" placeholder="Enter Password" required>
+            <button type="submit" class="login">Login</button>
+            <p class="signup">Don't have an account?<a href=""> Sign up now</a></p>
+        </form>
+    </div>
+
+    <script>
+        var popup_form = document.getElementById('myForm');
+        window.onclick = function(event) {
+            if (event.target == popup_form) {
+                popup_form.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
