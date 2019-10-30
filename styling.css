@@ -146,6 +146,21 @@ h1{
   padding-top: 10px;
 }
 
+/* Register button */
+.register{
+  background-color: #046A38;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
 /* -------------------- NAVIGATION BAR --------------------- */
 .logo{
   display: block;
