@@ -9,7 +9,57 @@ body{
  	margin: 0;
   padding: 0;  
 }
+/* ----------- INDEX PAGE ---------- */
+/* Create a banner with background image */
+.banner{
+  background-image: url("./index.jpg");
+  width: 100%;
+  display: block;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
 
+/* Style the welcome text that is placed inside the banner */
+.banner_text h1{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: white;
+  font-family: 'Pacifico';
+  text-shadow: 3px 3px 10px #000000;
+  font-size: 50px;
+}
+
+/* Style message inside the banner */
+.banner_text p {
+  text-align: center;
+  font-size: 17px;
+  text-shadow: 2px 2px 5px #000000;
+  color: white;
+  padding-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/* Login Button in the Index Page */
+.login_index {
+  background-color: #046A38;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 35px;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+/* ----------- LOGIN PAGE ---------- */
 /* Position the logo for login page*/
 .logo_login{
   display: block;
@@ -50,12 +100,13 @@ h1{
   cursor: pointer;
 }
 
+/* Sign up link */
 .signup{
 	text-align: center;
 	color: lighten(@blue, 10%);  
 }
 
-/* ----------- Navigation ---------- */
+/* ----------- NAVIGATION BAR ---------- */
 .logo{
   display: block;
   margin: 0 auto;
