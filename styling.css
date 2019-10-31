@@ -13,7 +13,7 @@ body{
 /* ------------------ INDEX PAGE ------------------ */
 /* Create a banner with background image */
 .banner{
-  background-image: url("./index.jpg");
+  background-image: url("./Images/index.jpg");
   width: 100%;
   display: block;
   height: 500px;
