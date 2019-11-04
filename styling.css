@@ -198,6 +198,17 @@ nav a:hover{
   color: darkgray;
 }
 
+.search_bar{
+  float: right;
+}
 
+.search_bar input[type=text]{
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
 
 
