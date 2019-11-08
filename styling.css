@@ -4,10 +4,10 @@
 }
 
 body{
-  font-family: 'Open Sans', sans-serif;
-  background: white;  
- 	margin: 0;
-  padding: 0;  
+	font-family: 'Open Sans', sans-serif;
+	background: white;  
+	margin: 0;
+	padding: 0;
 }
 
 /* ------------------ INDEX PAGE ------------------ */
@@ -108,6 +108,7 @@ h1{
 /* Login Box */
 .box {
   background: white;
+  height: 480px;
   width: 400px;
   border-radius: 10px;
   margin: 0 auto 0 auto;
@@ -198,19 +199,17 @@ nav a:hover{
   color: darkgray;
 }
 
-.search_bar{
+.top_account{
   float: right;
+  padding-top: 35px;
+  padding-right: 10px;
 }
 
-.search_bar input[type=text]{
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
+.top_account a{
+  text-decoration: none;
 }
 
+/* ---------------------------------------- */
 .grid-container{
   display: grid;
   grid-template-columns:  auto auto auto;
@@ -226,4 +225,12 @@ nav a:hover{
   height: 150px;
 }
 
+/* ----------------MY ACCOUNT PAGE--------------------- */
+.account_settings{
+  text-align: center;
+  padding-top: 40px;
+}
 
+.account_settings a{
+  text-decoration: none;
+}
