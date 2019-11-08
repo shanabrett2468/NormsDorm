@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset = "UTF-8"/>
-    <title>Norm's Dorm - Homepage</title>
+    <title>User Information</title>
     <link rel="stylesheet" type="text/css" href="styling.css">
 </head>
 

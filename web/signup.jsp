@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<meta charset = "UTF-8"/>
-    	<title> Norm's Dorm </title>
+    	<title> Sign Up </title>
 		<link rel="stylesheet" type="text/css" href="styling.css">	
 	</head>
 
