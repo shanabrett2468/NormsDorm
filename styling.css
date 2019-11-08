@@ -226,4 +226,12 @@ nav a:hover{
   height: 150px;
 }
 
+.aboutContainer{
+
+  display: grid;
+  grid-template-columns:  auto;
+  grid-auto-rows: 200px 50px;
+  justify-content: space-around;
+  padding-top: 10px;
+}
 
