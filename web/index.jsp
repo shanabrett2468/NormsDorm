@@ -39,7 +39,7 @@
             <input type="password" placeholder="Enter Password" name="password" required>
             <input type="hidden" name="action" value="login">
             <button type="submit" class="login">Login</button>
-            <p class="signup">Don't have an account? <a href="./signup.html">Sign up now</a></p>
+            <p class="signup">Don't have an account? <a href="./signup.jsp">Sign up now</a></p>
         </form>
     </div>
 

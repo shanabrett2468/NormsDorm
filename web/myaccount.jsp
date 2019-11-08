@@ -15,7 +15,7 @@
             <div class="top_account">
                 <h4>Welcome, (${user.username})!</h4>
                 <p>
-                    <a href="myaccount.html">My Account |</a>
+                    <a href="myaccount.jsp">My Account |</a>
                     <a href="">Logout</a>
                 </p>
             </div>
@@ -23,10 +23,10 @@
 
         <nav class="top_nav">
             <ul>
-            	<li><a href="homepage.html">HOME</a></li>
-                <li><a href="listings.html">LISTINGS</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="aboutus.html">ABOUT US</a></li>
+            	<li><a href="homepage.jsp">HOME</a></li>
+                <li><a href="listings.jsp">LISTINGS</a></li>
+                <li><a href="events.jsp">EVENTS</a></li>
+                <li><a href="aboutus.jsp">ABOUT US</a></li>
             </ul>
         </nav>
     </header>
@@ -36,7 +36,7 @@
         <p>
             <a href="">Manage Listings</a><br>
             <a href="">Privacy and Security Setting</a><br>
-            <a href="userinfo.html">User Infomation</a><br>
+            <a href="userinfo.jsp">User Infomation</a><br>
         </p>
     </div>
     </section>
