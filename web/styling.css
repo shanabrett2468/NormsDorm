@@ -199,7 +199,8 @@ nav a:hover{
 }
 
 
-.grid-container{
+/*Contains grid format for all listings*/
+.page-container{
   display: grid;
   grid-template-columns:  auto auto auto;
   grid-auto-rows: 50px 100px;
@@ -207,11 +208,31 @@ nav a:hover{
   padding-top: 30px;
 }
 
-.grid-item{
+/*Contains image div and caption div*/
+.itemContainer{
+
+width: 200px;
+
+}
+
+.grid-image{
   padding-top: 20px;
   padding-right: 30px;
-  border: 5px solid black;
+  border: 2px solid black;
   height: 150px;
+  width: 150px;
+}
+
+
+
+/*Styling for caption under image, overflow text is hidden*/
+.caption{
+width: 181px;  
+height: 40px;
+word-wrap: break-word;
+border: 1px solid black;
+overflow: hidden;
+text-overflow: ellipsis;
 }
 
 .top_account{
