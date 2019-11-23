@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -61,10 +62,35 @@ body{
   top: 65%;
   transform: translate(-50%, -50%);
 }
+/* ----------------- HOMEPAGE ---------------- */
+.feature{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.feature h3{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.feature p{
+  color: white;
+}
+
+.feature img{
+  padding-top: 50px;
+}
+
+.homepage_fea{
+  background-image: url("./Images/background.jpg");
+  opacity: 0.9;
+
+}
 
 /* ----------------- LOGIN POPUP ---------------- */
 /* Input Fields */
-input[type=text], input[type=password] {
+input[type=text], input[type=password] ,input[type=email] ,input[type=code] {
   width: 80%;
   padding: 15px 20px;
   margin: 8px 0;
@@ -102,7 +128,7 @@ h1{
   width: 100%; 
   overflow: auto; 
   background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 /* Login Box */
@@ -111,12 +137,12 @@ h1{
   width: 400px;
   border-radius: 10px;
   margin: 0 auto 0 auto;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 50px 0px;
   border: #046A38 4px solid; 
   text-align: center;
 }
 
-/* Position the close X Icone */
+/* Position the close X Icon */
 .close {
   text-align: center;
   margin: 24px 0 12px 0;
@@ -179,7 +205,7 @@ h1{
   width: 100%;
   padding: 8px 0px;
   text-align: center;  
-  background-color: beige;
+  background-color: #B9975B;
 }
 
 .top_nav ul li{
@@ -195,44 +221,7 @@ nav a{
 }
 
 nav a:hover{
-  color: darkgray;
-}
-
-
-/*Contains grid format for all listings*/
-.page-container{
-  display: grid;
-  grid-template-columns:  auto auto auto;
-  grid-auto-rows: 50px 100px;
-  justify-content: space-around;
-  padding-top: 30px;
-}
-
-/*Contains image div and caption div*/
-.itemContainer{
-
-width: 200px;
-
-}
-
-.grid-image{
-  padding-top: 20px;
-  padding-right: 30px;
-  border: 2px solid black;
-  height: 150px;
-  width: 150px;
-}
-
-
-
-/*Styling for caption under image, overflow text is hidden*/
-.caption{
-width: 181px;  
-height: 40px;
-word-wrap: break-word;
-border: 1px solid black;
-overflow: hidden;
-text-overflow: ellipsis;
+  color: white;
 }
 
 .top_account{
@@ -245,6 +234,49 @@ text-overflow: ellipsis;
   text-decoration: none;
 }
 
+.bottom_container{
+  padding-top: 24.5px;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  text-align: center;
+  font-size: 12px;
+}
+
+/* ----------------LISTINGS PAGE--------------------- */
+/*Contains grid format for all listings*/
+ .page-container{
+   display: grid;
+   grid-template-columns:  auto auto auto;
+   grid-auto-rows: 50px 100px;
+   justify-content: space-around;
+   padding-top: 30px;
+ }
+ 
+ /*Contains image div and caption div*/
+ .itemContainer{
+ 	width: 200px;
+ }
+
+ .grid-image{
+   padding-top: 20px;
+   padding-right: 30px;
+   border: 5px solid black;
+   border: 2px solid black;
+   height: 150px;
+   width: 150px;
+ }
+ 
+ /*Styling for caption under image, overflow text is hidden*/
+ .caption{
+ width: 181px;  
+ height: 40px;
+ word-wrap: break-word;
+ border: 1px solid black;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ }
+
 /* ----------------MY ACCOUNT PAGE--------------------- */
 .account_settings{
   text-align: center;
@@ -255,11 +287,83 @@ text-overflow: ellipsis;
   text-decoration: none;
 }
 
+.user_infobox{
+  background: white;
+  width: 550px;
+  border-radius: 10px;
+  margin: 0 auto 0 auto;
+  padding: 0px 0px 40px 0px;
+  border: #046A38 4px solid; 
+  text-align: left;
+}
+
+.user_infobox label{
+  display: block;
+  float: left;
+  width: 90px;
+  padding-top: 20px;
+  padding-left: 7px;
+}
+
+/* Update user information button */
+.update_button{
+  background-color: #046A38;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 35px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 220px;
+  margin-right: 220px;
+}
+
+/* ----------------ABOUT US PAGE-------------------- */
 .aboutContainer{
   display: grid;
   grid-template-columns:  auto;
   grid-auto-rows: 200px 50px;
   justify-content: space-around;
   padding-top: 10px;
+}
+/* ----------------CREATE POSTING-------------------- */
+.create_listing{
+  width: 80%;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
+#posting_item_form{
+  padding-top: 30px;
+}
+
+#posting_item_form label{
+  font-weight: bold;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[type=checkbox]{
+  margin-right: 5px;
+  margin-left: 8px;
+  border-radius: 10px;
+}
+
+/* Create Listing Button */
+#create_post_button{
+  position: relative;
+  background-color: #046A38;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  padding: 15px 35px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer; 
 }
 
