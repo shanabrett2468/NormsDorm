@@ -45,6 +45,24 @@
             <br>
             </div>
            </div>
+
+            <div class="itemContainer"> 
+                <div class="grid-image">
+                    <p>This is where the image goes.</p>
+
+                </div>
+                <div class="caption">
+                <p>This is where the caption goes. blah blah blah blah this is a description tee heexxxxxxxxxxxxxxxxxxx</p>
+                <br>
+                </div>
+           </div>
+
+
+
+
+
+
+
         </div>
         
     
