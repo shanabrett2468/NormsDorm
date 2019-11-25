@@ -7,7 +7,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   background: white;  
- 	margin: 0;
+  margin: 0;
   padding: 0;  
 }
 
@@ -245,6 +245,7 @@ nav a:hover{
 
 /* ----------------LISTINGS PAGE--------------------- */
 /*Contains grid format for all listings*/
+/*Contains grid format for all listings*/
  .page-container{
    display: inline-grid;
    grid-template-columns:  auto auto auto auto;
@@ -259,12 +260,10 @@ nav a:hover{
  
  /*Contains image div and caption div*/
  .itemContainer{
- 	width: 200px;
+  width: 200px;
  }
 
  .grid-image{
-   
-   
    border: 7px solid green;
    border-style: groove;
    height: 150px;
@@ -282,9 +281,18 @@ nav a:hover{
  text-overflow: 
  }
  .caption:hover{
-
   overflow: visible;
  }
+
+.sidebar{
+  width: 250px;
+  height: 520px;
+  border: 2px solid black;
+  float: right;
+  margin-right: 30px;
+  margin-top: 80px;
+  padding-left: 7px;
+}
 
 /* ----------------MY ACCOUNT PAGE--------------------- */
 .account_settings{
