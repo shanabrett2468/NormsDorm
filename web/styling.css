@@ -263,8 +263,8 @@ nav a:hover{
  }
 
  .grid-image{
-   padding-top: 20px;
-   padding-right: 30px;
+   
+   
    border: 7px solid green;
    border-style: groove;
    height: 150px;
@@ -274,7 +274,7 @@ nav a:hover{
  /*Styling for caption under image, overflow text is hidden*/
  .caption{
   
- width: 192px;  
+ width: 162px;  
  height: 40px;
  word-wrap: break-word;
  border: 1px solid black;
